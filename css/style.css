@@ -1,0 +1,302 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@font-face{
+	font-family: "Reggae_One";
+	src: url('../fonts/ReggaeOne-Regular.woff2') format('woff2'), url('../fonts/ReggaeOne-Regular.woff') format('woff');
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-size: 25px;
+}
+h2 {
+	font-family: "Lobster", sans-serif;
+	color: rgb(229, 255, 0);
+	font-size: 30px;
+	letter-spacing: 4px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 10px 0px;
+}
+span {
+	display: block;
+	text-align: right;
+}
+span a {
+	display: inline-block;
+	color: rgb(94, 255, 0);
+	font-weight: 700;
+	text-shadow: none;
+	background: rgb(26, 23, 23) url('../img/7Ng0.gif') right 0 / contain no-repeat;
+	border-radius: 15px;
+	box-shadow: 0px 0px 7px rgb(77, 7, 7);
+	padding: 3px 46px 3px 7px;
+}
+
+.header {
+	color: rgba(255, 197, 6, 0.993);
+	background: url('../img/cvetok.png') 0px -12px/140px no-repeat, url('../img/pngwing.co666666.png') center 20px/370px no-repeat , url('../img/bg-inner.jpg') 0 0/cover no-repeat;
+	padding: 15px 0px;
+}
+h1{
+	font-family: 'Rubik Mono One', sans-serif;
+	color: rgb(255, 123, 0);
+	text-shadow: 2px 2px 4px rgb(0, 0, 0);
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.menu ul{
+	text-align: center;
+	
+}
+.menu li {
+	display: inline-block;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 20px 0px;
+}
+.menu li a{
+	background: rgb(102, 3, 3);
+	border-radius: 10px;
+	box-shadow: 3px 3px 4px rgb(255, 0, 0);
+	padding: 2px 4px 3px;
+}
+
+.content {
+	color: rgb(152, 243, 4);
+	background-image: url('../img/fon.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 25px 0px;
+}
+.content-text {
+	background: linear-gradient(90deg, rgba(143,12,12,0.258140756302521) 0%, rgba(185,12,178,0.17130602240896353) 26%, rgba(7,136,154,0.3085609243697479) 55%, rgba(4,118,193,0.22172619047619047) 71%, rgba(218,2,2,0.23012955182072825) 100%, rgba(0,212,255,1) 100%);
+	border-top: 5px solid rgba(255, 0, 34, 0.24);
+	border-bottom: 5px solid rgba(255, 0, 34, 0.24);
+	border-radius: 20px;
+	max-width: 1400px;
+	margin: 0px auto;
+}
+.introduction  {
+	font-family: "Reggae_One",sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1.2;
+	color: rgb(255, 166, 0);
+	text-shadow: 1px 1px 1px rgb(216, 0, 0);
+	text-align: center;
+	background: url('../img/pngwing.com.png') center no-repeat;
+	padding: 20px 0px 20px;
+	margin: 0px 120px 30px;
+}
+.introduction-text {
+	display: inline-block;
+	color: rgb(241, 194, 62);
+	text-align-last: left;
+	background: rgba(74, 50, 207, 0.363) url('../img/pngwing.com1.png') 99.2% 2px / 33px 33px no-repeat;
+	border-radius: 10px;
+	padding: 5px 37px 5px 7px;
+	margin: 0px 0px 40px 30px;
+}
+.prometheus {
+	color: rgb(79, 243, 235);
+	line-height: 1.1;
+	text-shadow: 2px 2px 2px #000;
+	max-width: 900px;
+	margin: 0px auto 90px;
+	padding: 10px 20px 98px;
+	border-radius: 40px;
+	box-shadow: 0px 0px 40px rgb(255, 254, 254);
+	background: url('../img/pngwing.com2.png') 5px bottom / 99.8px repeat-x , url('../img/promitei_2400.jpg') top / cover no-repeat fixed ;
+}
+.prometheus p {
+	font-family: 'Press Start 2P', sans-serif;
+	margin: 0px 0px 10px 0px;
+}
+
+.guardies {
+	line-height: 1.1;
+	color: rgb(241, 228, 245);
+	background: url('../img/ctraji_2400.jpg') center/cover no-repeat;
+	text-shadow: 2px 2px 2px rgb(255, 0, 0);
+	word-spacing: 10px;
+	border-top: 4px solid rgb(255, 174, 0);
+	border-left: 4px solid rgb(255, 174, 0);
+	border-radius: 15px;
+	box-shadow: 0px 0px 13px rgb(255, 174, 0);
+	max-width: 1350px;
+	margin: 0px auto 70px;
+	padding: 10px 0px;
+}
+.guardies p {
+	font-family: "Reggae_One",sans-serif;
+	text-transform: lowercase;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 40px 0px;
+}
+.guardies .opacity {
+	background:  url('../img/1zso.gif') 0 0/40px 30px repeat-y, url('../img/2E0r.gif') 1275px 0/70px 60px repeat-y;
+	padding: 5px 12px;
+	margin: 0px 0px 10px 0px;
+	background-color: rgba(19, 15, 34, 0.562);
+	border-radius: 10px;
+}
+.opacity .guardies-last {
+	text-decoration: line-through;
+	color: rgb(255, 0, 0);
+	margin: 0;
+}
+.guardies span {
+	padding: 0px 70px 0px 0px;
+}
+
+.martian {
+	color: rgb(252, 88, 13);
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
+	max-width: 1000px;
+	border-radius: 30px;
+	background: url('../img/7gz4.gif') right 0/55px no-repeat , url('../img/pngwing.com333.png') 0px bottom /30% no-repeat, url('../img/mars_2400.jpg') center/cover no-repeat fixed ;
+	padding: 10px 18px;
+	margin: 0px auto 50px;
+}
+.martian p {
+	font-family: "Lobster", sans-serif;
+	margin: 0px 0px 10px 0px;
+}
+.martian .martian-last{
+	border-radius: 20px;
+	background-color: rgba(95, 114, 27, 0.411);
+	padding: 0px 9px;
+}
+
+.interstellar {
+	color: rgb(194, 181, 3);
+	text-shadow: 2px 2px 1px #000;
+	background: url('../img/interstellar_2400.jpg') 50% 60.5%/600px 333px no-repeat, url('../img/pngwing.com4444.png') 5% 60%/20% no-repeat, url('../img/3IsN.gif') 92% 59.5% no-repeat;
+	background-color: rgba(255, 255, 255, 0.103);
+	padding: 9px 10px 15px;
+	margin: 0px 0px 70px 0px;
+}
+.interstellar p{
+	font-family: 'Amatic SC',sans-serif;
+	font-weight: 700;
+	background-color: rgba(219, 0, 0, 0.137);
+	border-radius: 10px;
+	line-height: 1.2;
+	margin: 0px 0px 400px 0px;
+	padding: 5px;
+}
+.interstellar p span {
+	display: block;
+	font-size: 40px;
+	color: rgb(5, 148, 153);
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(240, 39, 25, 0.288);
+	border-top: 1px solid rgb(0, 255, 234);
+	border-bottom: 1px solid rgb(0, 255, 234);
+	border-left: 1px solid rgb(0, 250, 12);
+	border-right: 1px solid rgb(0, 250, 12) ;
+	border-radius: 10px;
+	padding: 5px 0px;
+}
+.interstellar .interstellar-last{
+	margin: 0px 0px 15px 0px;
+}
+
+.element {
+	max-width: 800px;
+	border-radius: 20px;
+	background:  url('../img/inoplanitianin.png') bottom / 80px repeat-x, url('../img/2lWk.gif') right 0/240px 70px no-repeat;
+	background-color: rgba(0, 0, 0, 0.281);
+	margin: 0px auto 50px;
+	padding: 10px 0px 100px;
+}
+.element p {
+	color: rgba(12, 173, 12, 0.212);
+	background: url('../img/5_element_2400.jpg') 0 0/cover no-repeat ;
+	text-shadow: 2px 2px 1px rgba(255, 0, 0, 0.507);
+	margin: 0px 0px 10px 0px;
+	padding: 5px 20px 7px;
+}
+p.element-text1 {
+	background: url('../img/5_element_2400.jpg') 0 0/contain no-repeat;
+}
+p.element-text2{
+	background: url('../img/5_element_2400.jpg') center/cover no-repeat fixed;
+}
+p.element-text3{
+	background: url('../img/5_element_2400.jpg') -420px -90px/auto no-repeat ;
+}
+
+.serenity {
+	max-width: 900px;
+	background: url('../img/pngwing.co55555555.png') 0 4px/ 50px repeat-x, url('../img/pngwing.co55555555.png') 0 bottom/ 50px repeat-x, url('../img/serenity_2400.jpg') -110px 0 no-repeat ;
+	border-radius: 20px 90px;
+	box-shadow: 15px 13px 20px rgb(196, 19, 19),-15px -13px 20px rgb(8, 243, 204);
+	margin: 0px auto 40px;
+	padding: 10px 20px 10px;
+}
+#serenity {
+	display: inline-block;
+	font-weight: 700;
+	background-color: rgb(207, 6, 6);
+	text-shadow: 2px 3px 1px #000;
+	padding: 3px 0px;
+}
+.serenity p{
+	font-family: 'Amatic SC',sans-serif;
+	color: rgb(6, 180, 192);
+	word-spacing: 20px;
+	text-decoration: underline;
+	height: 490px;
+	overflow: auto;
+	font-weight: 700;
+	line-height: 1.3;
+	text-shadow: 3px 3px 1px rgb(194, 27, 27);
+	background-color: rgba(19, 18, 18, 0.151);
+	border-radius: 20px;
+	margin: 0px 0px 20px 0px;
+	padding: 8px;
+}
+
+.link {
+	display: inline-block;
+	color: rgb(248, 211, 0);
+	font-size: 65px;
+	text-align: center;
+	padding: 0px 0px 20px 30px;
+}
+.top{
+	margin: 0px 0px 0px 610px;
+}
+.link a {
+	border: 2px solid #000;
+	border-radius: 20px;
+	padding: 0px 5px;
+	background-color: rgb(5, 6, 97);
+}
+
+.footer {
+	min-height: 100px;
+	background: url('../img/inst.png') 13.2% 20px/55px no-repeat, url('../img/vk.png') 9.1% 22.5px/50px no-repeat, url('../img/face.png') 4.3% 12.5px/70px no-repeat ,url('../img/cover.523823.2400x600.jpg') 0 0/cover;
+}
+.footer ul {
+	padding: 20px 0px 0px 90px;
+}
+.footer li {
+	display: inline-block;
+	color: rgb(255, 249, 249);
+	letter-spacing: 29px;
+	font-size: 55px;
+	opacity: 0;
+}
+
